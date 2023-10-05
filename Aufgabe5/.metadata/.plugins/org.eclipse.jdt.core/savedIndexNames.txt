@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+/Users/lutzweigold/Documents/Study/Modellgetriebene Softwareentwicklung/Tasks/Aufgabe5/.metadata/.plugins/org.eclipse.jdt.core
+2047496933.index

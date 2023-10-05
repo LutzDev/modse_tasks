@@ -1,0 +1,47 @@
+grammar org.xtext.aufgabe4.jsondsl.JsonDsl with org.eclipse.xtext.common.Terminals
+
+generate jsonDsl "http://www.xtext.org/aufgabe4/jsondsl/JsonDsl"
+
+JSON_Document:
+	json_value = JSON_Value
+;
+
+//Welche Values können enthalten sein
+JSON_Value:
+	json_value = (JSON_Array | JSON_String | JSON_Boolean | JSON_Number | JSON_Object | Null)
+;
+
+//Wie ist ein Array aufgebaut
+JSON_Array:
+	'['first = JSON_Value (',' other +=JSON_Value)*']'
+	json_array = '[' (values+=Value)? (',' values+=Value)* ']'
+;
+
+//Wie ist ein String aufgebaut
+JSON_String:
+	json_string = STRING
+;
+
+//Wie ist ein Boolean aufgebaut
+JSON_Boolean:
+	json_boolean = ('true'|'false')
+;
+
+Null:
+  'null';
+
+JSON_Number:
+	zahl = '-'? INT? '.' INT (('E'|'e') '-'? INT)?
+;
+
+JSON_Member:
+	json_member = JSON_String ':' json_value = JSON_Value
+;
+
+
+JSON_Object:
+	'{' first = JSON_Member ('.' other += JSON_Member)*'}'
+;
+
+
+

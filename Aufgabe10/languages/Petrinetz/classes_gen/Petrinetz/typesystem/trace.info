@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,16,0" name="Petrinetz.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:b62f06e7-402f-41ad-aefc-b0d588fc9e60(Petrinetz.typesystem)/4062951142940335103">
+    <file name="TypesystemDescriptor.java">
+      <node id="4062951142940335103" at="10,5,11,94" concept="6" />
+      <node id="4062951142940335103" at="11,94,12,55" concept="2" />
+      <node id="4062951142940335103" at="9,33,13,5" concept="0" />
+      <scope id="4062951142940335103" at="10,5,12,55">
+        <var name="nonTypesystemRule" id="4062951142940335103" />
+      </scope>
+    </file>
+    <file name="UniqueStellenName_NonTypesystemRule.java">
+      <node id="4062951142940335117" at="27,122,28,72" concept="6" />
+      <node id="4062951142940340719" at="28,72,29,0" concept="8" />
+      <node id="4062951142940350788" at="31,108,32,103" concept="2" />
+      <node id="4062951142940358230" at="34,5,35,0" concept="8" />
+      <node id="4062951142940437739" at="37,7,38,66" concept="6" />
+      <node id="4062951142940437739" at="38,66,39,230" concept="6" />
+      <node id="4062951142940335103" at="43,50,44,33" concept="7" />
+      <node id="4062951142940335103" at="46,68,47,102" concept="7" />
+      <node id="4062951142940335103" at="49,30,50,17" concept="7" />
+      <node id="4062951142940335103" at="54,0,55,0" concept="9" trace="name$MnvL" />
+      <node id="4062951142940335103" at="58,0,59,0" concept="9" trace="stellen$fpmA" />
+      <node id="4062951142940335103" at="62,0,63,0" concept="9" trace="Petrinetz$vh" />
+      <node id="4062951142940335103" at="25,0,27,0" concept="1" trace="UniqueStellenName_NonTypesystemRule#()V" />
+      <node id="4062951142940342121" at="30,108,33,7" concept="4" />
+      <node id="4062951142940335103" at="43,0,46,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="4062951142940335103" at="46,0,49,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="4062951142940335103" at="49,0,52,0" concept="5" trace="overrides#()Z" />
+      <node id="4062951142940437739" at="36,139,40,7" concept="0" />
+      <node id="4062951142940340738" at="29,0,34,5" concept="3" />
+      <node id="4062951142940362445" at="35,0,41,5" concept="4" />
+      <node id="4062951142940335103" at="27,0,43,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="4062951142940335103" at="25,48,25,48" />
+      <scope id="4062951142940342123" at="31,108,32,103" />
+      <scope id="4062951142940335103" at="43,50,44,33" />
+      <scope id="4062951142940335103" at="46,68,47,102" />
+      <scope id="4062951142940335103" at="49,30,50,17" />
+      <scope id="4062951142940335103" at="25,0,27,0" />
+      <scope id="4062951142940437739" at="37,7,39,230">
+        <var name="_reporter_2309309498" id="4062951142940437739" />
+        <var name="errorTarget" id="4062951142940437739" />
+      </scope>
+      <scope id="4062951142940340744" at="30,108,33,7" />
+      <scope id="4062951142940335103" at="43,0,46,0" />
+      <scope id="4062951142940335103" at="46,0,49,0">
+        <var name="argument" id="4062951142940335103" />
+      </scope>
+      <scope id="4062951142940335103" at="49,0,52,0" />
+      <scope id="4062951142940362447" at="36,139,40,7" />
+      <scope id="4062951142940340738" at="29,0,34,5">
+        <var name="stelle" id="4062951142940340740" />
+      </scope>
+      <scope id="4062951142940335104" at="27,122,41,5">
+        <var name="dups" id="4062951142940335120" />
+      </scope>
+      <scope id="4062951142940335103" at="27,0,43,0">
+        <var name="petrinetz" id="4062951142940335103" />
+        <var name="status" id="4062951142940335103" />
+        <var name="typeCheckingContext" id="4062951142940335103" />
+      </scope>
+      <unit id="4062951142940335103" at="53,0,56,0" name="Petrinetz.typesystem.UniqueStellenName_NonTypesystemRule$PROPS" />
+      <unit id="4062951142940335103" at="57,0,60,0" name="Petrinetz.typesystem.UniqueStellenName_NonTypesystemRule$LINKS" />
+      <unit id="4062951142940335103" at="61,0,64,0" name="Petrinetz.typesystem.UniqueStellenName_NonTypesystemRule$CONCEPTS" />
+      <unit id="4062951142940335103" at="24,0,65,0" name="Petrinetz.typesystem.UniqueStellenName_NonTypesystemRule" />
+    </file>
+  </root>
+</debug-info>
+

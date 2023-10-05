@@ -1,0 +1,3 @@
+grammar org.xtext.aufgabe4.jsondsl.JsonDsl with org.eclipse.xtext.common.Terminals
+
+generate jsonDsl "http://www.xtext.org/aufgabe4/jsondsl/JsonDsl"

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="jsonDsl" nsURI="http://www.xtext.org/aufgabe4/jsondsl/JsonDsl"
+    nsPrefix="jsonDsl">
+  <eClassifiers xsi:type="ecore:EClass" name="JSON_Document">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="json_value" eType="#//JSON_Value"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JSON_Value">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="json_value" eType="ecore:EClass http://www.eclipse.org/emf/2002/Ecore#//EObject"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JSON_Array">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="first" eType="#//JSON_Value"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="other" upperBound="-1"
+        eType="#//JSON_Value" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JSON_String">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="json_string" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JSON_Boolean">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="json_boolean" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JSON_Number">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="zahl" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="komma" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="expo" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JSON_Member">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="json_member" eType="#//JSON_String"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="json_value" eType="#//JSON_Value"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="JSON_Object">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="first" eType="#//JSON_Member"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="other" upperBound="-1"
+        eType="#//JSON_Member" containment="true"/>
+  </eClassifiers>
+</ecore:EPackage>

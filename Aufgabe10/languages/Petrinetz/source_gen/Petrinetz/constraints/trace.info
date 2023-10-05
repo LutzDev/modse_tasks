@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,31,0" name="Petrinetz.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:7cca7df9-38d3-4fe5-8679-76ce09c0fc15(Petrinetz.constraints)/4062951142940322663">
+    <file name="Petrinetz_Constraints.java">
+      <node id="4062951142940322663" at="20,34,21,33" concept="9" />
+      <node id="4062951142940462281" at="25,59,26,40" concept="9" />
+      <node id="4062951142940462281" at="29,38,30,18" concept="5" />
+      <node id="4062951142940462281" at="32,0,33,0" concept="7" trace="validatePropertyBreakingPoint" />
+      <node id="4062951142940462281" at="34,109,35,99" concept="4" />
+      <node id="4062951142940462281" at="36,53,37,75" concept="1" />
+      <node id="4062951142940462281" at="38,7,39,20" concept="5" />
+      <node id="4062951142940462694" at="41,85,42,40" concept="5" />
+      <node id="4062951142940322663" at="46,84,47,119" concept="4" />
+      <node id="4062951142940462281" at="47,119,48,61" concept="1" />
+      <node id="4062951142940322663" at="48,61,49,22" concept="5" />
+      <node id="4062951142940322663" at="53,0,54,0" concept="7" trace="Petrinetz$vh" />
+      <node id="4062951142940322663" at="57,0,58,0" concept="7" trace="name$MnvL" />
+      <node id="4062951142940322663" at="20,0,23,0" concept="0" trace="Petrinetz_Constraints#()V" />
+      <node id="4062951142940462281" at="25,0,28,0" concept="0" trace="Name_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="4062951142940462281" at="35,99,38,7" concept="2" />
+      <node id="4062951142940462281" at="41,0,44,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="4062951142940462281" at="28,0,32,0" concept="3" trace="hasOwnValidator#()Z" />
+      <node id="4062951142940322663" at="45,0,51,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="4062951142940462281" at="33,0,41,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="4062951142940322663" at="20,34,21,33" />
+      <scope id="4062951142940462281" at="25,59,26,40" />
+      <scope id="4062951142940462281" at="29,38,30,18" />
+      <scope id="4062951142940462281" at="36,53,37,75" />
+      <scope id="4062951142940462404" at="41,85,42,40" />
+      <scope id="4062951142940322663" at="20,0,23,0" />
+      <scope id="4062951142940462281" at="25,0,28,0">
+        <var name="container" id="4062951142940462281" />
+      </scope>
+      <scope id="4062951142940462281" at="41,0,44,0">
+        <var name="node" id="4062951142940462281" />
+        <var name="propertyValue" id="4062951142940462281" />
+      </scope>
+      <scope id="4062951142940322663" at="46,84,49,22">
+        <var name="properties" id="4062951142940322663" />
+      </scope>
+      <scope id="4062951142940462281" at="28,0,32,0" />
+      <scope id="4062951142940462281" at="34,109,39,20">
+        <var name="result" id="4062951142940462281" />
+      </scope>
+      <scope id="4062951142940322663" at="45,0,51,0" />
+      <scope id="4062951142940462281" at="33,0,41,0">
+        <var name="checkingNodeContext" id="4062951142940462281" />
+        <var name="node" id="4062951142940462281" />
+        <var name="propertyValue" id="4062951142940462281" />
+      </scope>
+      <unit id="4062951142940322663" at="52,0,55,0" name="Petrinetz.constraints.Petrinetz_Constraints$CONCEPTS" />
+      <unit id="4062951142940322663" at="56,0,59,0" name="Petrinetz.constraints.Petrinetz_Constraints$PROPS" />
+      <unit id="4062951142940462281" at="24,0,45,0" name="Petrinetz.constraints.Petrinetz_Constraints$Name_Property" />
+      <unit id="4062951142940322663" at="19,0,60,0" name="Petrinetz.constraints.Petrinetz_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:7cca7df9-38d3-4fe5-8679-76ce09c0fc15(Petrinetz.constraints)/4062951142940556983">
+    <file name="StellenReference_Constraints.java">
+      <node id="4062951142940556983" at="19,41,20,40" concept="9" />
+      <node id="4062951142940556983" at="27,128,28,133" concept="4" />
+      <node id="4062951142940556983" at="28,133,29,0" concept="6" />
+      <node id="4062951142940556983" at="30,55,31,72" concept="1" />
+      <node id="4062951142940556983" at="32,9,33,0" concept="6" />
+      <node id="4062951142940556983" at="33,0,34,22" concept="5" />
+      <node id="4062951142940559910" at="38,128,39,17" concept="5" />
+      <node id="4062951142940556983" at="41,0,42,0" concept="7" trace="canBeParentBreakingPoint" />
+      <node id="4062951142940556983" at="44,0,45,0" concept="7" trace="StellenReference$g5" />
+      <node id="4062951142940556983" at="19,0,22,0" concept="0" trace="StellenReference_Constraints#()V" />
+      <node id="4062951142940556983" at="29,0,32,9" concept="2" />
+      <node id="4062951142940556983" at="38,0,41,0" concept="8" trace="staticCanBeAParent#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="4062951142940556983" at="26,0,36,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeParent;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="4062951142940556983" at="24,105,36,6" concept="5" />
+      <node id="4062951142940556983" at="23,0,38,0" concept="3" trace="calculateCanBeParentConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="4062951142940556983" at="19,41,20,40" />
+      <scope id="4062951142940556983" at="30,55,31,72" />
+      <scope id="4062951142940559659" at="38,128,39,17" />
+      <scope id="4062951142940556983" at="19,0,22,0" />
+      <scope id="4062951142940556983" at="38,0,41,0">
+        <var name="childConcept" id="4062951142940556983" />
+        <var name="childNode" id="4062951142940556983" />
+        <var name="link" id="4062951142940556983" />
+        <var name="node" id="4062951142940556983" />
+      </scope>
+      <scope id="4062951142940556983" at="27,128,34,22">
+        <var name="result" id="4062951142940556983" />
+      </scope>
+      <scope id="4062951142940556983" at="26,0,36,0">
+        <var name="checkingNodeContext" id="4062951142940556983" />
+        <var name="context" id="4062951142940556983" />
+      </scope>
+      <scope id="4062951142940556983" at="24,105,36,6" />
+      <scope id="4062951142940556983" at="23,0,38,0" />
+      <unit id="4062951142940556983" at="43,0,46,0" name="Petrinetz.constraints.StellenReference_Constraints$CONCEPTS" />
+      <unit id="4062951142940556983" at="25,15,36,5" name="Petrinetz.constraints.StellenReference_Constraints$1" />
+      <unit id="4062951142940556983" at="18,0,47,0" name="Petrinetz.constraints.StellenReference_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

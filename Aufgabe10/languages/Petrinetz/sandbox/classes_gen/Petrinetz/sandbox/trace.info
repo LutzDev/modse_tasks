@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root nodeRef="r:2c2b7783-5b3b-42f3-bb02-b4176b692083(Petrinetz.sandbox)/4062951142940322637">
+    <file name="zyklischerProzess.java">
+      <node id="4062951142940322637" at="7,42,8,39" concept="0" />
+      <node id="4062951142940322637" at="8,39,9,0" concept="2" />
+      <node id="4062951142940322637" at="9,0,10,14" concept="1" />
+      <node id="4062951142940322637" at="10,14,11,0" concept="2" />
+      <node id="4062951142940322637" at="7,0,13,0" concept="3" trace="main#([Ljava/lang/String;)V" />
+      <scope id="4062951142940322637" at="7,42,11,0">
+        <var name="i" id="4062951142940322637" />
+      </scope>
+      <scope id="4062951142940322637" at="7,0,13,0">
+        <var name="args" id="4062951142940322637" />
+      </scope>
+      <unit id="4062951142940322637" at="6,0,14,0" name="Petrinetz.sandbox.zyklischerProzess" />
+    </file>
+  </root>
+</debug-info>
+

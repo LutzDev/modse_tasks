@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jSON:Element xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jSON="http://www.example.org/jSON" xsi:schemaLocation="http://www.example.org/jSON jSON.ecore">
+  <value xsi:type="jSON:Object">
+    <member name="message">
+      <value xsi:type="jSON:String" value="accurate"/>
+    </member>
+    <member name="cod">
+      <value xsi:type="jSON:String" value="200"/>
+    </member>
+    <member name="count">
+      <value xsi:type="jSON:Number" value="5.0"/>
+    </member>
+    <member name="list">
+      <value xsi:type="jSON:Array">
+        <value xsi:type="jSON:Object">
+          <member name="id">
+            <value xsi:type="jSON:Number" value="2923521.0"/>
+          </member>
+          <member name="name">
+            <value xsi:type="jSON:String" value="Furtwangen im Schwarzwald"/>
+          </member>
+          <member name="coord">
+            <value xsi:type="jSON:Object">
+              <member name="lat">
+                <value xsi:type="jSON:Number" value="48.05"/>
+              </member>
+              <member name="lon">
+                <value xsi:type="jSON:Number" value="8.2"/>
+              </member>
+            </value>
+          </member>
+          <member name="rain">
+            <value xsi:type="jSON:SpecialType" value="null"/>
+          </member>
+          <member name="snow">
+            <value xsi:type="jSON:SpecialType" value="null"/>
+          </member>
+        </value>
+        <value xsi:type="jSON:Object">
+          <member name="id">
+            <value xsi:type="jSON:Number" value="2944845.0"/>
+          </member>
+          <member name="name">
+            <value xsi:type="jSON:String" value="Breg"/>
+          </member>
+          <member name="coord">
+            <value xsi:type="jSON:Object">
+              <member name="lat">
+                <value xsi:type="jSON:Number" value="48.05"/>
+              </member>
+              <member name="lon">
+                <value xsi:type="jSON:Number" value="8.2"/>
+              </member>
+            </value>
+          </member>
+        </value>
+      </value>
+    </member>
+  </value>
+</jSON:Element>

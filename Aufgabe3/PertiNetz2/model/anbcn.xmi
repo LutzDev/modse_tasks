@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pertiNetz2:Petrinetz xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pertiNetz2="http://www.example.org/pertiNetz2" xsi:schemaLocation="http://www.example.org/pertiNetz2 pertiNetz2.ecore">
+  <transition name="a" input="//@stellen.0" output="//@stellen.0 //@stellen.1"/>
+  <transition name="b" input="//@stellen.0" output="//@stellen.2"/>
+  <transition name="c" input="//@stellen.1 //@stellen.2" output="//@stellen.2"/>
+  <stellen name="1">
+    <marken/>
+  </stellen>
+  <stellen name="2"/>
+  <stellen name="3"/>
+</pertiNetz2:Petrinetz>
